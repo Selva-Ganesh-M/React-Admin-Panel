@@ -3,13 +3,4 @@
   width: 100%;
   height: calc(100vh - 64px);
   position: relative;
-  .sidebar {
-    flex: 1;
-  }
-  .other {
-    flex: 4;
-    // overflow: hidden;
-    overflow-y: scroll;
-    padding: 1em;
-  }
 }
