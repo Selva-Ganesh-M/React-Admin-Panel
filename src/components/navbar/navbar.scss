@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 2em 2em;
+  position: fixed;
+  z-index: 999;
+  top: 0;
   .left {
     h1 {
       cursor: pointer;
