@@ -21,7 +21,7 @@ const Sidebar = () => {
       <section className="sidebar-section">
         <h3 className="sidebar-title">Dashboard</h3>
         <ul className="sidebar-list">
-          <li className="sidebar-li" active>
+          <li className="sidebar-li">
             <LineStyle />
             <span>Home</span>
           </li>
@@ -59,7 +59,7 @@ const Sidebar = () => {
       <section className="sidebar-section">
         <h3 className="sidebar-title">Notifications</h3>
         <ul className="sidebar-list">
-          <li className="sidebar-li" active>
+          <li className="sidebar-li">
             <MailOutline />
             <span>Mail</span>
           </li>
@@ -76,7 +76,7 @@ const Sidebar = () => {
       <section className="sidebar-section">
         <h3 className="sidebar-title">Staff</h3>
         <ul className="sidebar-list">
-          <li className="sidebar-li" active>
+          <li className="sidebar-li">
             <WorkOutline />
             <span>Manage</span>
           </li>
