@@ -1,6 +1,7 @@
 import "./home.scss";
 import Featured from "../../components/featured/Featured";
 import Chart from "../../components/chart/Chart";
+import Widgets from "../../components/widgets/Widgets";
 
 import { userData } from "../../data/chartDummyData";
 
@@ -14,6 +15,7 @@ const Home = () => {
         grid
         dataKey="Active User"
       />
+      <Widgets />
     </div>
   );
 };
