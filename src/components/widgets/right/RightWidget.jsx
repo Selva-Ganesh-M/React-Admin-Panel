@@ -5,7 +5,7 @@ const RightWidget = () => {
     return (
       <tr className="tb-tr">
         <td className="img-div">
-          <img src={image} className="img" alt="user-image" />
+          <img src={image} className="img" alt="" />
         </td>
         <td className="name">{name}</td>
         <td className="date">{date}</td>

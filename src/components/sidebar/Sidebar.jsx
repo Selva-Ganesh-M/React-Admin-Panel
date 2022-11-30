@@ -38,7 +38,7 @@ const Sidebar = () => {
       <section className="sidebar-section">
         <h3 className="sidebar-title">Quick Menu</h3>
         <ul className="sidebar-list">
-          <li className="sidebar-li" active>
+          <li className="sidebar-li">
             <PermIdentity />
             <span>User</span>
           </li>
