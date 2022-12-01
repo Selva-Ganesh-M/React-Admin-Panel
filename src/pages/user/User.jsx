@@ -4,13 +4,16 @@ import { CalendarToday } from "@material-ui/icons";
 import { PhoneAndroid } from "@material-ui/icons";
 import { MailOutline } from "@material-ui/icons";
 import { LocationSearching } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 const User = () => {
   return (
     <div className="user">
       <div className="header">
         <h1 className="header-title">Edit User</h1>
-        <button className="header-btn">Create</button>
+        <Link to="/user/new">
+          <button className="header-btn">Create</button>
+        </Link>
       </div>
       <div className="body">
         <div className="body-info">

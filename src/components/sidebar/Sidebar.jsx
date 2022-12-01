@@ -12,7 +12,7 @@ import {
   WorkOutline,
   Report,
 } from "@material-ui/icons";
-import "./sidebar.scss";
+import { Link } from "react-router-dom";
 import "./sidebar.scss";
 
 const Sidebar = () => {
@@ -21,10 +21,12 @@ const Sidebar = () => {
       <section className="sidebar-section">
         <h3 className="sidebar-title">Dashboard</h3>
         <ul className="sidebar-list">
-          <li className="sidebar-li">
-            <LineStyle />
-            <span>Home</span>
-          </li>
+          <Link to="/" className="link">
+            <li className="sidebar-li">
+              <LineStyle />
+              <span>Home</span>
+            </li>
+          </Link>
           <li className="sidebar-li">
             <Timeline />
             <span>Analytics</span>
@@ -38,14 +40,18 @@ const Sidebar = () => {
       <section className="sidebar-section">
         <h3 className="sidebar-title">Quick Menu</h3>
         <ul className="sidebar-list">
-          <li className="sidebar-li">
-            <PermIdentity />
-            <span>User</span>
-          </li>
-          <li className="sidebar-li">
-            <Storefront />
-            <span>Products</span>
-          </li>
+          <Link to="/users" className="link">
+            <li className="sidebar-li">
+              <PermIdentity />
+              <span>Users</span>
+            </li>
+          </Link>
+          <Link to="/products" className="link">
+            <li className="sidebar-li">
+              <Storefront />
+              <span>Products</span>
+            </li>
+          </Link>
           <li className="sidebar-li">
             <AttachMoney />
             <span>Transanctions</span>
