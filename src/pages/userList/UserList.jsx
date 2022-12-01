@@ -30,7 +30,6 @@ const UserList = () => {
     },
     { field: "email", headerName: "Email", width: 300 },
     { field: "status", headerName: "Status", width: 160 },
-    { field: "payment", headerName: "Payment", width: 160 },
     {
       field: "action",
       headerName: "Action",
